@@ -1,0 +1,28 @@
+.basic-search-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation-links {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  flex-direction: column;
+}
+
+.search-bar {
+  border-radius: 24px;
+  padding-left: 25px;
+}
+
+.submit-button {
+  margin-top: 24px;
+}
+
+.find-pages-with-group label + div {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
