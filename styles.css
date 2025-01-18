@@ -81,11 +81,13 @@ body {
 
 .search-icon-div {
   position: absolute;
-  left: 10px;
+  padding-left: 14px;
+  padding-right: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  cursor: default;
 }
 
 .search-icon {
