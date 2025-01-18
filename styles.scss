@@ -1,3 +1,6 @@
+body {
+    min-width: 400px;
+}
 .basic-search-form {
     display: flex;
     width: 100%;
@@ -118,6 +121,10 @@
     min-height: 46px;
     border: 1px solid #dfe1e5;
     font-size: 16px;
+}
+
+.search-bar:focus-visible {
+    outline: none;
 }
 
 .search-icon-div {
