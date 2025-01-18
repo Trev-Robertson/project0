@@ -16,7 +16,7 @@
             <label style="color: #d93025;">Advanced Search</label>
           </div>
           <hr>
-          <div class="container">
+          <div id="go" class="container">
             <div class="mb-4">
               Find pages with...
             </div>
@@ -51,12 +51,60 @@
                     <div class="col-sm">
                       <input type="text" class="form-control rounded-0" id="number-ranging">
                     </div>
-                    <span class="col-sm-1 d-flex align-items-center justify-content-center">to</span>
+                    <span class="col-sm-1 d-flex align-items-center justify-content-center mb-3">to</span>
                     <div class="col-sm">
                       <input type="text" class="form-control rounded-0" id="number-ranging">
                     </div>
                 </div>
               </div>
+              <hr>
+            <div class="mb-4">
+              Then narrow your results by...
+            </div>
+            <form >
+              <div class="find-pages-with-group">
+                <div class="row">
+                  <label for="all-these-words" class="col-sm-4 col-form-label">language:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="all-these-words">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="this-exact-word" class="col-sm-4 col-form-label">region:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="this-exact-word">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="any-of" class="col-sm-4 col-form-label">last update:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="any-of">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="none-of" class="col-sm-4 col-form-label">site or domain:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="none-of">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="none-of" class="col-sm-4 col-form-label">terms appearing:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="none-of">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="none-of" class="col-sm-4 col-form-label">file type:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="none-of">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="none-of" class="col-sm-4 col-form-label">usage rights:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control rounded-0" id="none-of">
+                  </div>
+                </div>
                 <button type="submit" class="btn btn-primary rounded-0">Advanced Search</button>
           </form>
         </div>
