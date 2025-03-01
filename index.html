@@ -10,10 +10,10 @@
     </head>
     <body>
         <div class="navigation-links container-fluid align-items-center">
-            <a class="link-underline link-underline-opacity-0 me-2 link-dark" href="image.html">Image Search</a>
-            <a class="link-underline link-underline-opacity-0 link-dark" href="advanced.html">Advanced Search</a>
+            <a class="me-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-dark" href="image.html">Image Search</a>
+            <a class="me-4 link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-dark" href="advanced.html">Advanced Search</a>
         </div>
-        <div class="container-fluid d-flex flex-column" style="height: 75dvh; justify-content: center;">
+        <div class="container-fluid d-flex flex-column logo-search-centering">
             <div class=" d-flex flex-column align-items-center justify-content-center">
                 <div>
                     <img class="logo-image" style="max-height: 290px;" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
@@ -23,7 +23,7 @@
                         <div class="search-icon-div">
                             <span class="material-symbols-outlined search-icon" style="font-size: 20px;">search</span>
                         </div>
-                        <input class="search-bar" type="text" name="q">
+                        <input autofocus class="search-bar" type="text" maxlength="2048" style="background-color: rgba(0, 0, 0, .07)" name="q">
                     </div>
                     <div class="pt-3">
                         <input class="submit-button" type="submit" value="Google Search">

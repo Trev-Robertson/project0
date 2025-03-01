@@ -9,50 +9,50 @@
     </head>
     <body>
         <div class="navigation-links container-fluid align-items-center">
-            <a class="link-underline link-underline-opacity-0 me-4 link-dark" href="index.html">Back to Search</a>
+            <a class="me-4 link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-dark" href="index.html">Back to Search</a>
         </div>
           <div class="container">
             <label style="color: #d93025;">Advanced Search</label>
           </div>
           <hr>
-          <div id="go" class="container">
+          <div class="container-fluid">
             <div class="mb-4">
               Find pages with...
             </div>
-            <form >
+            <form action="https://www.google.com/search">
               <div class="find-pages-with-group">
                 <div class="row">
                   <label for="all-these-words" class="col-sm-4 col-form-label">all these words:</label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control rounded-0" id="all-these-words">
+                    <input type="text" class="form-control rounded-0" id="all-these-words" name="as_q">
                   </div>
                 </div>
                 <div class="row">
                   <label for="this-exact-word" class="col-sm-4 col-form-label">this exact word or phrase:</label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control rounded-0" id="this-exact-word">
+                    <input type="text" class="form-control rounded-0" id="this-exact-word" name="as_epq">
                   </div>
                 </div>
                 <div class="row">
                   <label for="any-of" class="col-sm-4 col-form-label">any of these words:</label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control rounded-0" id="any-of">
+                    <input type="text" class="form-control rounded-0" id="any-of" name="as_oq">
                   </div>
                 </div>
                 <div class="row">
                   <label for="none-of" class="col-sm-4 col-form-label">none of these words:</label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control rounded-0" id="none-of">
+                    <input type="text" class="form-control rounded-0" id="none-of" name="as_eq">
                   </div>
                 </div>
                 <div class="row">
                   <label for="number-ranging" class="col-sm-4 col-form-label">numbers ranging from:</label>
                     <div class="col-sm">
-                      <input type="text" class="form-control rounded-0" id="number-ranging">
+                      <input type="text" class="form-control rounded-0" id="number-ranging" name="as_nlo">
                     </div>
                     <span class="col-sm-1 d-flex align-items-center justify-content-center mb-3">to</span>
                     <div class="col-sm">
-                      <input type="text" class="form-control rounded-0" id="number-ranging">
+                      <input type="text" class="form-control rounded-0" id="number-ranging" name="as_nhi">
                     </div>
                 </div>
               </div>
@@ -63,9 +63,32 @@
             <form >
               <div class="find-pages-with-group">
                 <div class="row">
-                  <label for="all-these-words" class="col-sm-4 col-form-label">language:</label>
+                  <label for="languages" class="col-sm-4 col-form-label">language:</label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control rounded-0" id="all-these-words">
+                    <select id="languages" name="lr" class="dropdown-styling">
+                      <option value="">any language</option>
+                      <option value="lang_af">Afrikaans</option>
+                      <option value="lang_ar">Arabic</option>
+                      <option value="lang_bg">Bulgarian</option>
+                      <option value="lang_ca">Catalan</option>
+                      <option value="lang_zh-CN">Chinese</option>
+                      <option value="lang_zh-TW">Chinese</option>
+                      <option value="lang_en">English</option>
+                      <option value="lang_fr">French</option>
+                      <option value="lang_de">German</option>
+                      <option value="lang_el">Greek</option>
+                      <option value="lang_hu">Hungarian</option>
+                      <option value="lang_it">Italian</option>
+                      <option value="lang_ja">Japanese</option>
+                      <option value="lang_ko">Korean</option>
+                      <option value="lang_no">Norwegian</option>
+                      <option value="lang_pt">Portuguese</option>
+                      <option value="lang_es">Spanish</option>
+                      <option value="lang_sw">Swahili</option>
+                      <option value="lang_th">Thai</option>
+                      <option value="lang_tr">Turkish</option>
+                      <option value="lang_uk">Ukrainian</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row">
